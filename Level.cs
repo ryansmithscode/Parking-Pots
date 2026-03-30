@@ -54,7 +54,7 @@ public class Level : MonoBehaviour
 
     public void nextLevel()
     {
-        activeLevel = (activeLevel + 1) % levelModel.Length; // Moves Array Index Up
+        activeLevel = (activeLevel + 1) % levelModel.Length; // Moves Array Index Up Before Going Back To 0
         repeatInstantiate();
     }
 
