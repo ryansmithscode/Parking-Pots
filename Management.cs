@@ -25,7 +25,7 @@ public class Management : MonoBehaviour
     //-----------------------------------Start is called once upon creation-------------------------
     private void Awake()
     {
-        requiredLevel = Level.selectedLevel; 
+        requiredLevel = Level.activeLevel; 
         requiredCharacter = Character.activeCharacter; // Gathers Selected Characters's Index Number
 
         Instantiate(levelPrefabs[requiredLevel], levelPosition.transform); // Places Correct Level Model With Correct Position, Size & Rotation
