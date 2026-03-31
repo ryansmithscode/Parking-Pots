@@ -10,7 +10,7 @@ public class Level : MonoBehaviour
     public GameObject activeModelPosition;
 
     [Header("Level Index")]
-    public int activeLevel;
+    public static int activeLevel;
 
     [Header("Change Canvas")]
     public GameObject levelSelectCanvas;
