@@ -16,9 +16,6 @@ public class Level : MonoBehaviour
     public GameObject levelSelectCanvas;
     public GameObject characterSelectCanvas;
 
-    [Header("Management")]
-    public static int selectedLevel;
-
     [Header("Sound Design")]
     public AudioSource selectSFX;
 
