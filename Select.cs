@@ -8,12 +8,9 @@ public class Select : MonoBehaviour
     public GameObject[] characterModels;
 
     [Header("Current Character")]
-    public int activeCharacter;
+    public static int activeCharacter;
     private GameObject activeCharacterModel;
     public GameObject activeCharacterModelPosition;
-
-    [Header("Management")]
-    public static int selectedCharacter;
 
     [Header("Locked Visual")]
     public GameObject officeCostumeLock;
