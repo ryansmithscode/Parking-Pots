@@ -60,7 +60,6 @@ public class Level : MonoBehaviour
         activeLevel = (activeLevel - 1 + levelModel.Length) % levelModel.Length; // Avoids Potential Breaks
         repeatInstantiate();
     }
-}
 
     private void repeatInstantiate() // Avoids Repeating Code
     {
